@@ -1,0 +1,21 @@
+{
+  "name": "facebook-recover-puppeteer",
+  "version": "0.1.0",
+  "description": "facebook recovery puppeteer",
+  "main": "lib/facebook.js",
+  "repository": "https://github.com/freelogstudio/facebook-recover-puppeteer",
+  "author": "Freelog Studio LLC",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "puppeteer": "^10.4.0",
+    "puppeteer-extra": "^3.2.3",
+    "puppeteer-extra-plugin-adblocker": "^2.12.0",
+    "puppeteer-extra-plugin-recaptcha": "^3.5.0",
+    "puppeteer-extra-plugin-stealth": "^2.9.0",
+    "querystring": "^0.2.1"
+  },
+  "devDependencies": {
+    "nice-repl": "^0.1.2"
+  }
+}
